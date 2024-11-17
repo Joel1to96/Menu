@@ -640,7 +640,7 @@
     {
         "Referencia": "21",
         "Artículo": "SOUTH BEACH",
-        "Familia": "HAMBURGUESAS",
+        "Familia": "HAMBURGUESAS Y WRAPS",
         "Subfamilia": "",
         "Precio": "9.90",
         "Imagen": "SouthBeach.png",
@@ -651,7 +651,7 @@
     {
         "Referencia": "22",
         "Artículo": "SWEET ALABAMA",
-        "Familia": "HAMBURGUESAS",
+        "Familia": "HAMBURGUESAS Y WRAPS",
         "Subfamilia": "",
         "Precio": "9.90",
         "Imagen": "SweetAlabama.png",
@@ -662,7 +662,7 @@
     {
         "Referencia": "23",
         "Artículo": "SWEET ALABAMA VEGETARIANA",
-        "Familia": "HAMBURGUESAS",
+        "Familia": "HAMBURGUESAS Y WRAPS",
         "Subfamilia": "",
         "Precio": "9.90",
         "Imagen": "SweetAlabama.png",
@@ -702,5 +702,27 @@
         "OrdenFamilia": "4",
         "OrdenSubfamilia": "",
         "OrdenArtículo": "7"
+    },
+    {
+        "Referencia": "24",
+        "Artículo": "TZATZIKI WRAP",
+        "Familia": "HAMBURGUESAS Y WRAPS",
+        "Subfamilia": "",
+        "Precio": "9.9",
+        "Imagen": "WRAP.png",
+        "OrdenFamilia": "2",
+        "OrdenSubfamilia": "",
+        "OrdenArtículo": "4"
+    },
+    {
+        "Referencia": "25",
+        "Artículo": "KOREAN WRAP",
+        "Familia": "HAMBURGUESAS Y WRAPS",
+        "Subfamilia": "",
+        "Precio": "9.9",
+        "Imagen": "WRAP.png",
+        "OrdenFamilia": "2",
+        "OrdenSubfamilia": "",
+        "OrdenArtículo": "5"
     }
 ]
