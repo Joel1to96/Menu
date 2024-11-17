@@ -7,25 +7,275 @@
     --color-texto: #FFFFFF;
 }
 
+
 /* Estilos generales */
 body {
+    font-family: 'Poppins', Arial, sans-serif;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    background-color: var(--color-fondo);
-    color: var(--color-texto);
+    padding: 0;
+    color: #000;
+    background-color: #fff;
 }
 
-/* Encabezado y navegación */
-header {
-    background-color: var(--color-fondo);
-    padding: 10px;
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Encabezado */
+.header {
+    padding: 20px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-header img {
-    height: 100px;
+.header img {
+    height: 50px;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.header nav a:hover {
+    color: #FF006C;
+}
+
+/* Sección Hero */
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.hero-left, .hero-right {
+    flex: 1;
+    min-width: 300px;
+}
+
+.hero-left {
+    padding-right: 20px;
+    /* Efecto de zoom-in al cargar */
+    animation: zoomIn 1s ease-in-out;
+}
+
+.hero-right {
+    text-align: center;
+    /* Efecto de zoom-in al cargar */
+    animation: zoomIn 1s ease-in-out;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #FF006C;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #FF006C;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #FF006C;
+    color: #fff;
+    border: none;
+    border-radius: 1000px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #e6005f;
+}
+
+/* Animación de zoom-in */
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Sección de Productos (Carrusel) */
+.products {
+    padding: 0; /* Eliminamos padding para que el carrusel ocupe todo el ancho */
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2.5rem;
+    color: #FF006C;
+    margin: 40px 0 10px 0;
+}
+
+.products p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #FF006C;
+}
+
+/* Carrusel */
+.carousel-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Controles del Carrusel */
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #FF006C;
+    border: none;
+    font-size: 2rem;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    user-select: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+.carousel-container:hover .carousel-control {
+    opacity: 1;
+}
+
+.carousel-control:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Pie de página */
+.footer {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-left, .hero-right {
+        padding: 0;
+    }
+
+    .hero-left {
+        order: 2;
+    }
+
+    .hero-right {
+        order: 1;
+        margin-bottom: 20px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .products h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .products h2 {
+        font-size: 1.5rem;
+    }
+
+    .products p {
+        font-size: 1rem;
+    }
+
+    .carousel-control {
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+}
+
+/* Botón de Glovo */
+.boton-glovo {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--color-amarillo);
+    color: var(--color-fondo);
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.boton-glovo:hover {
+    background-color: var(--color-rosa);
 }
 
 nav ul {
@@ -49,132 +299,9 @@ nav a:hover {
     color: var(--color-amarillo);
 }
 
-/* Banner */
-.banner {
-    background-image: url('fondo.png');
-    background-size: cover;
-    background-position: center;
-    padding: 100px 20px;
-    text-align: center;
-}
-
-.banner h1 {
-    font-size: 48px;
-    color: var(--color-rosa);
-    text-shadow: 2px 2px #000;
-    font-family: 'Pacifico', cursive;
-}
-
-/* Secciones */
-section {
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.descrpcion h1 {
-    font-family: 'Pacifico', cursive;
-    color: var(--color-amarillo);
-    margin-bottom: 20px;
-    font-size: 48px;
-}
-
-h2 {
-    font-family: 'Pacifico', cursive;
-    color: var(--color-amarillo);
-    margin-bottom: 20px;
-    font-size: 48px;
-}
-
-p {
-    font-size: 18px;
-}
-
-/* Botón de Glovo */
-.boton-glovo {
-    display: inline-block;
-    padding: 15px 30px;
-    background-color: var(--color-amarillo);
-    color: var(--color-fondo);
-    text-decoration: none;
-    font-size: 18px;
-    margin-top: 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.boton-glovo:hover {
-    background-color: var(--color-rosa);
-}
-
-/* Galería de imágenes */
-.galeria-imagenes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.galeria-imagenes .image-container {
-    width: 300px;
-    height: 200px;
-    margin: 10px;
-    overflow: hidden;
-    border-radius: 10px;
-    display: flex;
-    align-items: center; /* Centra verticalmente */
-    justify-content: center; /* Centra horizontalmente */
-    background-color: #000; /* Fondo para rellenar espacios */
-}
-
-.galeria-imagenes .image-container img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.galeria-imagenes .image-container img:hover {
-    transform: scale(1.05);
-}
-
-/* Video promocional */
-.video-promocional video {
-    width: 80%;
-    max-width: 800px;
-    border: 5px solid var(--color-rosa);
-    border-radius: 10px;
-}
-
-/* Formulario de contacto */
-#contacto {
-    background-color: var(--color-turquesa);
-    color: var(--color-fondo);
-}
-
-#contacto input,
-#contacto textarea {
-    width: 80%;
-    max-width: 500px;
-    padding: 10px;
-    margin: 10px 0;
-    border: none;
-    border-radius: 5px;
-}
-
-#contacto button {
-    padding: 10px 20px;
-    background-color: var(--color-amarillo);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-
-#contacto button:hover {
-    background-color: var(--color-rosa);
-}
-
 /* Pie de página */
 footer {
-    background-color: var(--color-turquesa);
+    background-color: #FFFFFF;
     padding: 20px;
     text-align: center;
 }
@@ -191,41 +318,6 @@ footer a img {
 
 footer a img:hover {
     transform: scale(1.1);
-}
-
-/* Estilos para dispositivos móviles */
-@media (max-width: 600px) {
-    header, nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav li {
-        margin: 10px 0;
-    }
-
-    .banner {
-        padding: 50px 20px;
-    }
-
-    .banner h1 {
-        font-size: 32px;
-    }
-
-    .galeria-imagenes .image-container {
-        width: 100%;
-        height: auto;
-        margin: 10px 0;
-    }
-
-    #contacto input,
-    #contacto textarea {
-        width: 100%;
-    }
-
-    .video-promocional video {
-        width: 100%;
-    }
 }
 
 /* Estilos específicos para la página del menú */
@@ -331,7 +423,7 @@ footer a img:hover {
 
 .pagina-menu .menu-item h5 {
     font-size: 18px;
-    color: var(--color-texto);
+    color: #FF69B4;
     margin: 10px 0;
 }
 
@@ -350,7 +442,7 @@ footer a img:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000;
+    background-color: #ffffff;
 }
 
 .pagina-menu .image-container img {
@@ -384,4 +476,10 @@ footer a img:hover {
         width: 100%;
         margin: 10px 0;
     }
+}
+
+/* Secciones */
+section {
+    padding: 40px 20px;
+    text-align: center;
 }
