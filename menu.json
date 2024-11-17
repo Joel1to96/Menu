@@ -7,8 +7,8 @@
         "Precio": "3.50",
         "Imagen": "CONTRAMUSLO.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "6",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "1",
+        "OrdenArtículo": "1"
     },
     {
         "Referencia": "121",
@@ -18,8 +18,8 @@
         "Precio": "2.90",
         "Imagen": "DRUMBSTICKS.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "2",
+        "OrdenArtículo": "1"
     },
     {
         "Referencia": "135",
@@ -29,8 +29,8 @@
         "Precio": "14.90",
         "Imagen": "tenders.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "3",
+        "OrdenArtículo": "5"
     },
     {
         "Referencia": "145",
@@ -40,8 +40,8 @@
         "Precio": "11.90",
         "Imagen": "AlitasSinRebozar.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "4",
+        "OrdenArtículo": "5"
     },
     {
         "Referencia": "155",
@@ -51,8 +51,8 @@
         "Precio": "11.90",
         "Imagen": "AlitasRebozadas2.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "5",
+        "OrdenArtículo": "5"
     },
     {
         "Referencia": "136",
@@ -62,8 +62,8 @@
         "Precio": "18.90",
         "Imagen": "tenders.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "3",
+        "OrdenArtículo": "6"
     },
     {
         "Referencia": "141",
@@ -73,8 +73,8 @@
         "Precio": "2.50",
         "Imagen": "AlitasSinRebozar.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "4",
+        "OrdenArtículo": "1"
     },
     {
         "Referencia": "151",
@@ -84,8 +84,8 @@
         "Precio": "2.50",
         "Imagen": "alitasRebozadas.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "5",
+        "OrdenArtículo": "1"
     },
     {
         "Referencia": "112",
@@ -95,8 +95,8 @@
         "Precio": "6.90",
         "Imagen": "CONTRAMUSLO.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "6",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "1",
+        "OrdenArtículo": "2"
     },
     {
         "Referencia": "131",
@@ -106,8 +106,8 @@
         "Precio": "2.90",
         "Imagen": "Tenders2.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "3",
+        "OrdenArtículo": "1"
     },
     {
         "Referencia": "156",
@@ -117,8 +117,8 @@
         "Precio": "21.90",
         "Imagen": "AlitasRebozadas2.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "5",
+        "OrdenArtículo": "6"
     },
     {
         "Referencia": "113",
@@ -128,8 +128,8 @@
         "Precio": "9.90",
         "Imagen": "CONTRAMUSLO.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "6",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "1",
+        "OrdenArtículo": "3"
     },
     {
         "Referencia": "122",
@@ -139,8 +139,8 @@
         "Precio": "7.90",
         "Imagen": "DRUMBSTICKS.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "2",
+        "OrdenArtículo": "2"
     },
     {
         "Referencia": "132",
@@ -150,8 +150,8 @@
         "Precio": "4.40",
         "Imagen": "Tenders2.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "3",
+        "OrdenArtículo": "2"
     },
     {
         "Referencia": "142",
@@ -161,8 +161,8 @@
         "Precio": "4.70",
         "Imagen": "AlitasSinRebozar.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "4",
+        "OrdenArtículo": "2"
     },
     {
         "Referencia": "152",
@@ -172,8 +172,8 @@
         "Precio": "4.70",
         "Imagen": "alitasRebozadas.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "5",
+        "OrdenArtículo": "2"
     },
     {
         "Referencia": "114",
@@ -183,8 +183,8 @@
         "Precio": "12.90",
         "Imagen": "CONTRAMUSLO.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "6",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "1",
+        "OrdenArtículo": "4"
     },
     {
         "Referencia": "123",
@@ -194,8 +194,8 @@
         "Precio": "12.90",
         "Imagen": "DRUMBSTICKS.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "2",
+        "OrdenArtículo": "3"
     },
     {
         "Referencia": "133",
@@ -205,8 +205,8 @@
         "Precio": "7.30",
         "Imagen": "tenders.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "3",
+        "OrdenArtículo": "3"
     },
     {
         "Referencia": "143",
@@ -216,8 +216,8 @@
         "Precio": "6.90",
         "Imagen": "AlitasSinRebozar.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "4",
+        "OrdenArtículo": "3"
     },
     {
         "Referencia": "153",
@@ -227,8 +227,8 @@
         "Precio": "6.90",
         "Imagen": "AlitasRebozadas2.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "5",
+        "OrdenArtículo": "3"
     },
     {
         "Referencia": "115",
@@ -238,8 +238,8 @@
         "Precio": "18.90",
         "Imagen": "CONTRAMUSLO.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "6",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "1",
+        "OrdenArtículo": "5"
     },
     {
         "Referencia": "124",
@@ -249,8 +249,8 @@
         "Precio": "14.90",
         "Imagen": "DRUMBSTICKS.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "2",
+        "OrdenArtículo": "4"
     },
     {
         "Referencia": "144",
@@ -260,8 +260,8 @@
         "Precio": "8.70",
         "Imagen": "AlitasSinRebozar.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "4",
+        "OrdenArtículo": "4"
     },
     {
         "Referencia": "154",
@@ -271,8 +271,8 @@
         "Precio": "8.70",
         "Imagen": "AlitasRebozadas2.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "5",
+        "OrdenArtículo": "4"
     },
     {
         "Referencia": "134",
@@ -282,8 +282,8 @@
         "Precio": "11.50",
         "Imagen": "tenders.png",
         "OrdenFamilia": "1",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenSubfamilia": "3",
+        "OrdenArtículo": "4"
     },
     {
         "Referencia": "51",
@@ -534,9 +534,9 @@
         "Subfamilia": "POPCORN NUGGETS",
         "Precio": "8.90",
         "Imagen": "NuggetsBBQ.png",
-        "OrdenFamilia": "",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenFamilia": "1",
+        "OrdenSubfamilia": "6",
+        "OrdenArtículo": "1"
     },
     {
         "Referencia": "162",
@@ -545,9 +545,9 @@
         "Subfamilia": "POPCORN NUGGETS",
         "Precio": "8.90",
         "Imagen": "NuggetsPicantes.png",
-        "OrdenFamilia": "",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenFamilia": "1",
+        "OrdenSubfamilia": "6",
+        "OrdenArtículo": "2"
     },
     {
         "Referencia": "163",
@@ -556,9 +556,9 @@
         "Subfamilia": "POPCORN NUGGETS",
         "Precio": "8.90",
         "Imagen": "NuggetsHoneyB.png",
-        "OrdenFamilia": "",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenFamilia": "1",
+        "OrdenSubfamilia": "6",
+        "OrdenArtículo": "3"
     },
     {
         "Referencia": "164",
@@ -567,9 +567,9 @@
         "Subfamilia": "POPCORN NUGGETS",
         "Precio": "8.90",
         "Imagen": "Nuggets2.png",
-        "OrdenFamilia": "",
-        "OrdenSubfamilia": "",
-        "OrdenArtículo": ""
+        "OrdenFamilia": "1",
+        "OrdenSubfamilia": "6",
+        "OrdenArtículo": "4"
     },
     {
         "Referencia": "33",
